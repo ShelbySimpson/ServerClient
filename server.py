@@ -7,7 +7,7 @@ try:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # bind to an ip address / port tuple
-    s.bind( ('127.0.0.1', 50000) )
+    s.bind( ('127.0.0.1', 40000) )
 
     #listen for incoming connection(backlog of 5)
     s.listen(5)
